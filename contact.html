@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Hobbies</title>
+  <title>Contact Me</title>
   <style>
     * {
       margin: 0;
@@ -38,15 +38,23 @@
       display: inline-block;
     }
 
-    ul {
-      list-style-type: square;
-      padding-left: 1.5rem;
+    .contact-info {
       font-size: 1.1rem;
       line-height: 1.8;
+      margin-top: 1rem;
     }
 
-    li {
-      margin-bottom: 0.7rem;
+    .contact-info p {
+      margin-bottom: 1rem;
+    }
+
+    .contact-info a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
     }
 
     .back-link {
@@ -70,14 +78,12 @@
 <body>
 
   <div class="container">
-    <h1>My Hobbies</h1>
+    <h1>Contact Me</h1>
 
-    <ul>
-      <!-- 📝 You can freely edit these list items to match your hobbies -->
-      <li>Playing basketball because its a theraphy for me, it gives me happiness</li>
-      <li>Going to the gym, and build my self confidence and keep me healthy</li>
-      <li>Listening to music to clear my mind</li>
-    </ul>
+    <div class="contact-info">
+      <!-- 📝 Edit these lines with your actual contact details -->
+      <p>Facebook:Ben Roes <a href="https://facebook.com/yourprofile" target="_blank">facebook.com/yourprofile</a></p>
+      <p>Tiktok:ROESS <a href="https://instagram.com/yourprofile" target="_blank">@yourprofile</a></p>    </div>
 
     <a href="index.html" class="back-link">← Back to Home</a>
   </div>
