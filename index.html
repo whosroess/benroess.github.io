@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      display: flex;
+      min-height: 100vh;
+      background: url('basketball001.jpg') no-repeat center center/cover;
+      color: #ffffff;
+    }
+
+    .left {
+      flex: 1;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .right {
+      width: 35%;
+      background-color: rgba(255, 255, 255, 0.9);
+      color: #333;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .right h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #222;
+      padding: 0.5rem;
+      border: 2px solid #333;
+      border-radius: 5px;
+      text-align: center;
+      transition: background 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      background-color: #333;
+      color: #fff;
+    }
+
+    .description {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        flex-direction: column;
+      }
+      .right {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="left">
+    <h1 style="font-size: 2.5rem; border-bottom: 2px solid white; display: inline-block; margin-bottom: 1rem;">
+      Welcome to My Website I am Ben Roes
+    </h1>
+    <p style="font-size: 1.2rem;">
+      Discover more about me, my interests, and how to get in touch.
+    </p>
+  </div>
+
+  <div class="right">
+    <h2>Explore</h2>
+    <div class="nav-links">
+      <a href="about.html">About Me</a>
+      <a href="blog.html">My Hobbies</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="description" style="margin-top: 2rem;">
+      <p>
+        Great things take time, thats why im always late.      </p>
+    </div>
+  </div>
+
+</body>
+</html>
